@@ -35,7 +35,7 @@ const Contact = () => {
               Github <MdArrowOutward />
             </a>
             <a
-              href="https://linkedin.com/in/amit-tahasilder"
+              href="https://www.linkedin.com/in/amit-tahasilder-550196391/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -43,7 +43,7 @@ const Contact = () => {
               Linkedin <MdArrowOutward />
             </a>
             <a
-              href="https://x.com/raxx21_official"
+              href="https://x.com/amittahasilder"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -51,7 +51,7 @@ const Contact = () => {
               Twitter <MdArrowOutward />
             </a>
             <a
-              href="https://www.instagram.com/therajeshchityal"
+              href="https://www.instagram.com/amittahasilder"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
