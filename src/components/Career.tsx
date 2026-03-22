@@ -20,11 +20,14 @@ const Career = () => {
               </div>
               <h3>2024</h3>
             </div>
-            <p>
-              Developed multiple full stack web applications using React.js and Node.js.
-              Built REST APIs, designed responsive UIs with Tailwind CSS, implemented JWT
-              authentication, and managed MongoDB & PostgreSQL databases.
-            </p>
+            <ul className="career-list" style={{ color: "#aaa", paddingLeft: "15px", margin: "10px 0", lineHeight: "1.6", listStyleType: "disc", fontSize: "16px" }}>
+              <li>Developed <strong>5+ full-stack applications</strong> using React.js and Node.js.</li>
+              <li>Designed and integrated <strong>RESTful APIs</strong> for scalable client-server communication.</li>
+              <li>Built <strong>responsive and user-friendly interfaces</strong> using Tailwind CSS.</li>
+              <li>Implemented <strong>secure authentication systems (JWT, cookies)</strong>.</li>
+              <li>Optimized database queries improving performance and efficiency.</li>
+              <li>Used Git & GitHub for version control, collaboration, and project tracking.</li>
+            </ul>
           </div>
         </div>
       </div>

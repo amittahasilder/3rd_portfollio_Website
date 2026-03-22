@@ -7,13 +7,13 @@ const projects = [
   {
     title: "Smart Expense Tracker",
     category: "Full-Stack Application",
-    tools: "JavaScript, React.js, Chart.js",
+    tools: "React.js, Chart.js, JavaScript",
     image: "/images/Solidx.png",
   },
   {
     title: "E-Commerce Website",
     category: "Complete platform",
-    tools: "React.js, Node.js, MongoDB",
+    tools: "React.js, Node.js, Express.js, MongoDB",
     image: "/images/radix.png",
   },
   {
@@ -25,7 +25,7 @@ const projects = [
   {
     title: "Developer Portfolio",
     category: "Personal Website",
-    tools: "React.js, Tailwind CSS",
+    tools: "React.js, Tailwind CSS, Framer Motion",
     image: "/images/sapphire.png",
   },
   {

@@ -85,37 +85,91 @@ const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose }) => {
           <div className="profile-section">
             <h4>Professional Summary</h4>
             <p>
-              Passionate Full Stack Developer skilled in building modern web apps using React, Node.js, and scalable backend systems.
+              Results-driven <strong>Full Stack Developer</strong> with hands-on experience building scalable web applications using <strong>React.js, Node.js, and modern databases</strong>. Strong in designing responsive UI, developing secure REST APIs, and managing full development lifecycle.<br/><br/>
+              Passionate about writing clean, efficient code and building real-world solutions. Continuously learning and adapting to new technologies to deliver high-quality software products.
             </p>
           </div>
 
           <div className="profile-section">
-            <h4>Skills</h4>
-            <div className="profile-skills">
-              <span className="skill-tag">JavaScript</span>
-              <span className="skill-tag">React.js</span>
-              <span className="skill-tag">Node.js</span>
-              <span className="skill-tag">MongoDB</span>
-              <span className="skill-tag">PostgreSQL</span>
-              <span className="skill-tag">Tailwind CSS</span>
+            <h4>Technical Skills</h4>
+            <div style={{ marginBottom: "12px" }}>
+              <span style={{ color: "#aaa", fontSize: "0.95rem", display: "block", marginBottom: "5px" }}>Languages:</span>
+              <div className="profile-skills">
+                <span className="skill-tag">JavaScript (ES6+)</span>
+                <span className="skill-tag">HTML5</span>
+                <span className="skill-tag">CSS3</span>
+              </div>
+            </div>
+            <div style={{ marginBottom: "12px" }}>
+              <span style={{ color: "#aaa", fontSize: "0.95rem", display: "block", marginBottom: "5px" }}>Frontend:</span>
+              <div className="profile-skills">
+                <span className="skill-tag">React.js</span>
+                <span className="skill-tag">Next.js</span>
+                <span className="skill-tag">Tailwind CSS</span>
+                <span className="skill-tag">Framer Motion</span>
+                <span className="skill-tag">Context API</span>
+              </div>
+            </div>
+            <div style={{ marginBottom: "12px" }}>
+              <span style={{ color: "#aaa", fontSize: "0.95rem", display: "block", marginBottom: "5px" }}>Backend:</span>
+              <div className="profile-skills">
+                <span className="skill-tag">Node.js</span>
+                <span className="skill-tag">Express.js</span>
+                <span className="skill-tag">REST APIs</span>
+                <span className="skill-tag">JWT</span>
+              </div>
+            </div>
+            <div style={{ marginBottom: "12px" }}>
+              <span style={{ color: "#aaa", fontSize: "0.95rem", display: "block", marginBottom: "5px" }}>Databases:</span>
+              <div className="profile-skills">
+                <span className="skill-tag">MongoDB</span>
+                <span className="skill-tag">PostgreSQL</span>
+                <span className="skill-tag">MySQL</span>
+              </div>
+            </div>
+            <div>
+              <span style={{ color: "#aaa", fontSize: "0.95rem", display: "block", marginBottom: "5px" }}>Tools & Platforms:</span>
+              <div className="profile-skills">
+                <span className="skill-tag">Git & GitHub</span>
+                <span className="skill-tag">Postman</span>
+                <span className="skill-tag">Vercel</span>
+              </div>
             </div>
           </div>
 
           <div className="profile-section">
-            <h4>Experience</h4>
+            <h4>Professional Experience</h4>
             <ul>
-              <li>Developed full stack applications</li>
-              <li>Built REST APIs</li>
-              <li>Implemented authentication (JWT)</li>
-              <li>Designed responsive UI</li>
+              <li>Developed <strong>5+ full-stack applications</strong> using React.js and Node.js</li>
+              <li>Designed and integrated <strong>RESTful APIs</strong> for scalable client-server communication</li>
+              <li>Built <strong>responsive and user-friendly interfaces</strong> using Tailwind CSS</li>
+              <li>Implemented <strong>secure authentication systems</strong> (JWT, cookies)</li>
+              <li>Optimized database queries improving performance and efficiency</li>
+              <li>Used Git & GitHub for version control, collaboration, and project tracking</li>
+            </ul>
+          </div>
+
+          <div className="profile-section">
+            <h4>🎯 Key Achievements</h4>
+            <ul>
+              <li>Built and deployed multiple real-world full-stack applications</li>
+              <li>Strong understanding of <strong>frontend + backend integration</strong></li>
+              <li>Experience with <strong>authentication, APIs, and databases</strong></li>
+              <li>Consistent GitHub activity with real project implementations</li>
             </ul>
           </div>
 
           <div className="profile-section">
             <h4>Education</h4>
             <ul>
-              <li>Northern University Bangladesh (CSE)</li>
-              <li>Gopalganj Polytechnic Institute</li>
+              <li>
+                <strong>BSc in Computer Science & Engineering (CSE)</strong><br />
+                Northern University Bangladesh
+              </li>
+              <li style={{ marginTop: "10px" }}>
+                <strong>Diploma in Engineering (CSE)</strong><br />
+                Gopalganj Polytechnic Institute | GPA: 3.70 / 4.00
+              </li>
             </ul>
           </div>
 

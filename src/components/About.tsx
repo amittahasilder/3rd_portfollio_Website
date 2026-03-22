@@ -6,11 +6,9 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Passionate Full Stack Developer with strong experience in building modern web
-          applications using JavaScript, React, Node.js, and databases. Skilled
-          in developing responsive UI, REST APIs, and scalable backend systems.
-          Focused on writing clean, maintainable code and solving real-world problems
-          through technology.
+          Results-driven <strong>Full Stack Developer</strong> with hands-on experience building scalable web applications using <strong>React.js, Node.js, and modern databases</strong>. Strong in designing responsive UI, developing secure REST APIs, and managing full development lifecycle.
+          <br /><br />
+          Passionate about writing clean, efficient code and building real-world solutions. Continuously learning and adapting to new technologies to deliver high-quality software products.
           <br /><br />
           <strong>Career Objective:</strong> To work as a Full Stack Developer in a dynamic
           tech company where I can build scalable applications, contribute to impactful
