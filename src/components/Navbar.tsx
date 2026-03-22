@@ -1,14 +1,17 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
 import { gsap } from "gsap";
 import { ScrollSmoother } from "gsap-trial/ScrollSmoother";
+import ProfileModal from "./ProfileModal";
 import "./styles/Navbar.css";
 
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger);
 export let smoother: ScrollSmoother;
 
 const Navbar = () => {
+  const [isProfileOpen, setIsProfileOpen] = useState(false);
+
   useEffect(() => {
     smoother = ScrollSmoother.create({
       wrapper: "#smooth-wrapper",
@@ -54,6 +57,11 @@ const Navbar = () => {
         </a>
         <ul>
           <li>
+            <a href="#" onClick={(e) => { e.preventDefault(); setIsProfileOpen(true); }}>
+              <HoverLinks text="PROFILE" />
+            </a>
+          </li>
+          <li>
             <a data-href="#about" href="#about">
               <HoverLinks text="ABOUT" />
             </a>
@@ -74,6 +82,8 @@ const Navbar = () => {
       <div className="landing-circle1"></div>
       <div className="landing-circle2"></div>
       <div className="nav-fade"></div>
+
+      <ProfileModal isOpen={isProfileOpen} onClose={() => setIsProfileOpen(false)} />
     </>
   );
 };
